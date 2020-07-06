@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital clock</title>
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,400italic,700,700italic,900,900italic" rel="stylesheet">
+    <script src="https://use.fontawesome.com/8757dbe676.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <script src='js/script.js'></script>
+</head>
+<body>
+
+<div class="clock-body">
+    <div class="clock-container">
+        <div class="clock-col">
+            <i class="control fa fa-sort-up" data-id = 'inc-hours'></i>
+            <p class="clock-hours clock-timer">
+          </p>
+          <p class="clock-label">
+            Hours
+          </p>
+            <i class="control fa fa-sort-down" data-id = 'dec-hours'></i>
+        </div>
+        <div class="clock-col">
+            <i class="control fa fa-sort-up" data-id = 'inc-minutes'></i>
+            <p class="clock-minutes clock-timer">
+          </p>
+          <p class="clock-label">
+            Minutes
+          </p>
+            <i class="control fa fa-sort-down" data-id = 'dec-minutes'></i>
+        </div>
+        <div class="clock-col">
+            <i class="control fa fa-sort-up" data-id = 'inc-seconds'></i>
+            <p class="clock-seconds clock-timer">
+          </p>
+          <p class="clock-label">
+            Seconds
+          </p>
+            <i class="control fa fa-sort-down" data-id = 'dec-seconds'></i>
+        </div>
+      </div>
+
+</div>
+<!--<script>
+    const clickHandler = ()=> console.log(true);
+</script>-->
+
+    <div class="buttons">
+<!--        <button class="stop-button" onclick="clickHandler()">Stop</button>-->
+        <button class="stop-button" >Stop</button>
+        <button class="start-button">Start</button>
+        <button class="auto-button">Auto</button>
+    </div>
+
+
+
+
+
+</body>
+</html>
